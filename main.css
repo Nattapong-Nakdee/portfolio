@@ -571,18 +571,18 @@ h2{
 }
 
 .resume img{
-    width: 900px;
+    width: 70%;
 }
 
 @media screen and ( max-width : 768px ){
     .resume img{
-        width: 500px;
+        width: 60%;
     }
 } 
 
 @media screen and ( max-width : 512px ){
     .resume img{
-        width: 300px;
+        width: 40%;
     }
 } 
 
