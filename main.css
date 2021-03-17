@@ -574,6 +574,18 @@ h2{
     width: 900px;
 }
 
+@media screen and ( max-width : 768px ){
+    .resume img{
+        width: 500px;
+    }
+} 
+
+@media screen and ( max-width : 512px ){
+    .resume img{
+        width: 300px;
+    }
+} 
+
 /* slider */
 
 .box-slider{box-sizing: border-box}
