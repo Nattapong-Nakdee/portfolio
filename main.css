@@ -571,20 +571,8 @@ h2{
 }
 
 .resume img{
-    width: 70%;
+    width: 100%;
 }
-
-@media screen and ( max-width : 768px ){
-    .resume img{
-        width: 60%;
-    }
-} 
-
-@media screen and ( max-width : 512px ){
-    .resume img{
-        width: 40%;
-    }
-} 
 
 /* slider */
 
