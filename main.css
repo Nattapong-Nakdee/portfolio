@@ -579,7 +579,11 @@ h2{
         width: 100%;
         display: block;
     }
-}
+
+    .resume img{
+        width: 40%;
+    }
+} 
 
 /* slider */
 
