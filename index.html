@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,7 +33,8 @@
 
         <main>
             <div class="start-main container">
-                <div>
+                <div data-aos="fade-right"
+                     data-aos-duration="2000">
                     <img src="images/donut.png" alt="" class="pic_Donut">
                 </div>
                 <div>
@@ -57,37 +59,37 @@
             <div class="container skill">
                 <p class="port-text animate__animated animate__rubberBand">SKILL AND HOBBY</p>
                 <ul class="hobby-list">
-                    <li class="hobby-item">
+                    <li data-aos="zoom-in" class="hobby-item">
                         <img src="images/html.png" alt="">
                         <p class="text-header-skill">web development</p>
                         <hr>
                         <p class="text-scrip-skill">มีความสามารถในการใช้ HTML CSS JAVASCRIPT ในทำเว็บไซต์หรือพัฒนาเว็บไซต์ได้</p>
                     </li>
-                    <li class="hobby-item">
+                    <li data-aos="zoom-in" class="hobby-item">
                         <img src="images/creativity.png" alt="">
                         <p class="text-header-skill">creativity</p>
                         <hr>
                         <p class="text-scrip-skill">มีความสามารถในการใช้ PS AI ในการออกแบบผลงาน</p>
                     </li>
-                    <li class="hobby-item">
+                    <li data-aos="zoom-in" class="hobby-item">
                         <img src="images/windows-big-logo.png" alt="">
                         <p class="text-header-skill">microsoft office</p>
                         <hr>
                         <p class="text-scrip-skill">สามารถใช้ Microsoft Word,Excel,Powerpoint ในการทำงานได้เช่น เพาเวอร์พ้อยพรีเซ้นต์งาน เป็นต้น</p>
                     </li>
-                    <li class="hobby-item">
+                    <li data-aos="zoom-in" class="hobby-item">
                         <img src="images/kick.png" alt="">
                         <p class="text-header-skill">sports</p>
                         <hr>
                         <p class="text-scrip-skill">เป็นคนที่ชอบเล่นกีฬามาก กีฬาที่เล่นจะมี ฟุตบอล บาสเกตบอล แบดมินตัน</p>
                     </li>
-                    <li class="hobby-item">
+                    <li data-aos="zoom-in" class="hobby-item">
                         <img src="images/paw.png" alt="">
                         <p class="text-header-skill">Raising a dog</p>
                         <hr>
                         <p class="text-scrip-skill">เป็นชอบหมามากในเวลาว่างถ้าไม่ได้ทำไรหรือรู้สึกเหนื่อยๆเบื่อๆก็จะเล่นกับน้องหมาหรือไม่ก็พาน้องหมาออกมาเดินเล่น</p>
                     </li>
-                    <li class="hobby-item">
+                    <li data-aos="zoom-in" class="hobby-item">
                         <img src="images/acoustic-guitar.png" alt="">
                         <p class="text-header-skill">guitar</p>
                         <hr>
@@ -101,19 +103,19 @@
             <div class="port container">
                 <p class="port-text">PORTFOLIO</p>
                 <ul class=" product-list">
-                    <li class="product-item">
+                    <li data-aos="zoom-in" class="product-item">
                         <div class="product-item-main">
                             <a href="https://nattapong-nakdee.github.io/assignment4/index"><img src="images/PD1.PNG" alt=""></a>
                         </div>
                         <p>assignment4</p>
                     </li>
-                    <li class="product-item">
+                    <li data-aos="zoom-in" class="product-item">
                         <div class="product-item-main">
                             <a href="https://nattapong-nakdee.github.io/assignment5/index"><img src="images/PD2.PNG" alt=""></a>
                         </div>
                         <p>assignment5</p>
                     </li>
-                    <li class="product-item">
+                    <li data-aos="zoom-in" class="product-item">
                         <div class="product-item-main">
                             <a href="https://nattapong-nakdee.github.io/assignment6/register"><img src="images/PD3.PNG" alt=""></a>
                         </div>
@@ -176,6 +178,12 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration : 750
+        });
+    </script>
 </body>
 
 </html>
