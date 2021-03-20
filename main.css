@@ -679,7 +679,6 @@ h2{
     grid-gap: 10px;
   
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1f 1fr;
 }
 
 .pic-project{
@@ -710,13 +709,21 @@ h2{
         grid-gap: 10px;
       
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1f;
+        grid-template-rows: 1fr;
         border-bottom: 2px solid black;
         margin: 30px auto;
     }
     .text-project .project-list{
         text-align: left;
         padding-right: 0px;
+    }
+
+    .text-project:nth-child(2){
+        padding-bottom : 30px;
+    }
+
+    .pic-project{
+        padding: 20px;
     }
 }
 
