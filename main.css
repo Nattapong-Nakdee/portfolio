@@ -283,6 +283,31 @@ h2{
     padding: 0px 10px;
 }
 
+.text_ai{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    color: rgb(115, 34, 255);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text_ai:hover{
+    opacity: 1;
+}
+
+.click_here{
+    position:relative;
+}
+
 @media screen and ( max-width : 768px ){
     .product-list{
         display: flex;
@@ -334,6 +359,13 @@ h2{
 .product-item img:hover{
     transform: scale(1.4);
 }
+
+.click_here{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .see_more{
     text-align: right;
